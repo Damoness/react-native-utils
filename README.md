@@ -1,17 +1,26 @@
-# react-native-utils
+# @damoness/react-native-utils
 
-## Getting started
+工具
 
-`$ npm install react-native-utils --save`
+## Installation
 
-### Mostly automatic installation
-
-`$ react-native link react-native-utils`
+```sh
+npm install @damoness/react-native-utils
+```
 
 ## Usage
-```javascript
-import DMNUtils from 'react-native-utils';
 
-// TODO: What to do with the module?
-DMNUtils;
+```js
+import ReactNativeUtils from "@damoness/react-native-utils";
+
+// ...
+
 ```
+
+## Contributing
+
+See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+## License
+
+MIT

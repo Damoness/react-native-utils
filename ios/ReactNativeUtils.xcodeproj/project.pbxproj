@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C3B41722392989F00D4F729 /* RCTImpactFeedbackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B41712392989F00D4F729 /* RCTImpactFeedbackManager.m */; };
-		B3E7B58A1CC2AC0600A0062D /* DMNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* DMNUtils.m */; };
+		9C329F5525F210A400E73DDA /* DMNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C329F5425F210A400E73DDA /* DMNUtils.m */; };
+		9C329F5925F210AA00E73DDA /* RCTImpactFeedbackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C329F5825F210AA00E73DDA /* RCTImpactFeedbackManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libDMNUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDMNUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C3B41702392989F00D4F729 /* RCTImpactFeedbackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTImpactFeedbackManager.h; sourceTree = "<group>"; };
-		9C3B41712392989F00D4F729 /* RCTImpactFeedbackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTImpactFeedbackManager.m; sourceTree = "<group>"; };
-		B3E7B5881CC2AC0600A0062D /* DMNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNUtils.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* DMNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNUtils.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libReactNativeUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C329F5325F210A400E73DDA /* DMNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNUtils.h; sourceTree = "<group>"; };
+		9C329F5425F210A400E73DDA /* DMNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNUtils.m; sourceTree = "<group>"; };
+		9C329F5725F210AA00E73DDA /* RCTImpactFeedbackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTImpactFeedbackManager.h; sourceTree = "<group>"; };
+		9C329F5825F210AA00E73DDA /* RCTImpactFeedbackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTImpactFeedbackManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libDMNUtils.a */,
+				134814201AA4EA6300B7C361 /* libReactNativeUtils.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +53,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				9C3B41702392989F00D4F729 /* RCTImpactFeedbackManager.h */,
-				9C3B41712392989F00D4F729 /* RCTImpactFeedbackManager.m */,
-				B3E7B5881CC2AC0600A0062D /* DMNUtils.h */,
-				B3E7B5891CC2AC0600A0062D /* DMNUtils.m */,
+				9C329F5325F210A400E73DDA /* DMNUtils.h */,
+				9C329F5425F210A400E73DDA /* DMNUtils.m */,
+				9C329F5725F210AA00E73DDA /* RCTImpactFeedbackManager.h */,
+				9C329F5825F210AA00E73DDA /* RCTImpactFeedbackManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* DMNUtils */ = {
+		58B511DA1A9E6C8500147676 /* ReactNativeUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "DMNUtils" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "ReactNativeUtils" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = DMNUtils;
+			name = ReactNativeUtils;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libDMNUtils.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libReactNativeUtils.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DMNUtils" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "ReactNativeUtils" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* DMNUtils */,
+				58B511DA1A9E6C8500147676 /* ReactNativeUtils */,
 			);
 		};
 /* End PBXProject section */
@@ -118,8 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C3B41722392989F00D4F729 /* RCTImpactFeedbackManager.m in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* DMNUtils.m in Sources */,
+				9C329F5925F210AA00E73DDA /* RCTImpactFeedbackManager.m in Sources */,
+				9C329F5525F210A400E73DDA /* DMNUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +230,11 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = DMNUtils;
+				PRODUCT_NAME = ReactNativeUtils;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeUtils-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -246,15 +249,17 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = DMNUtils;
+				PRODUCT_NAME = ReactNativeUtils;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeUtils-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "DMNUtils" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "ReactNativeUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -263,7 +268,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "DMNUtils" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "ReactNativeUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,
