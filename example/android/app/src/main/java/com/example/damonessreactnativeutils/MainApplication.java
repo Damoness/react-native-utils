@@ -10,7 +10,7 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import com.damonessreactnativeutils.ReactNativeUtilsPackage;
+import com.damoness.rn.utils.DMNUtilsPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -27,7 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for ReactNativeUtilsExample:
           // packages.add(new MyReactNativePackage());
-          packages.add(new ReactNativeUtilsPackage());
+          packages.add(new DMNUtilsPackage());
           return packages;
         }
 

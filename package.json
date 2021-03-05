@@ -36,8 +36,15 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Damoness/react-native-utils",
-  "author": "Damoness <qjwdcool@qq.com> (https://github.com/Damoness)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damoness/react-native-utils.git",
+    "baseUrl": "https://github.com/damoness/react-native-utils"
+  },
+  "author": {
+    "name": "damoness",
+    "email": "qjwdcool@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Damoness/react-native-utils/issues"
