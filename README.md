@@ -11,7 +11,7 @@ npm install @damoness/react-native-utils
 ## Usage
 
 ```js
-import ReactNativeUtils from "@damoness/react-native-utils";
+import { ImpactFeedback } from '@damoness/react-native-utils';
 
 // ...
 
